@@ -1,0 +1,23 @@
+vtk_module(SignedTensor
+  GROUPS
+    StandAlone
+  DEPENDS
+    vtkCommonExecutionModel
+    vtkCommonCore
+    vtkCommonDataModel
+    vtkCommonExecutionModel
+    vtkCommonTransforms
+  TEST_DEPENDS
+    vtkTestingRendering
+    vtkFiltersCore
+    vtkFiltersModeling
+    vtkIOLegacy
+    vtkImagingCore
+    vtkInteractionStyle
+    vtkRenderingAnnotation
+    vtkRenderingLabel
+    vtkRendering${VTK_RENDERING_BACKEND}
+    vtkRenderingCore
+  KIT
+    vtkFilters
+  )

@@ -1,0 +1,18 @@
+NAME
+  VTK::ParallelMomentInvariants
+LIBRARY_NAME
+  ParallelMomentInvariants
+CONDITION
+  NOT WIN32     # VTK::FiltersParallelDIY2 is not available on win32
+GROUPS
+  StandAlone
+DEPENDS
+  VTK::FiltersParallelDIY2
+  VTK::MomentInvariants
+  VTK::ParallelCore
+  VTK::ParallelMPI
+PRIVATE_DEPENDS
+  VTK::mpi
+  VTK::dfft
+TEST_DEPENDS
+  VTK::IOParallelXML

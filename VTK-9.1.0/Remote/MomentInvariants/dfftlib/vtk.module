@@ -1,0 +1,10 @@
+NAME
+  VTK::dfft
+LIBRARY_NAME
+  vtkdfft
+CONDITION
+  NOT WIN32     # only used by ParallelMomentInvariants which is not built on win32
+PRIVATE_DEPENDS
+  VTK::mpi
+EXCLUDE_WRAP
+THIRD_PARTY

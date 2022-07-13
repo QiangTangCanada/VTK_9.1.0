@@ -1,0 +1,14 @@
+NAME
+  VTK::SplineDrivenImageSlicer
+LIBRARY_NAME
+  SplineDrivenImageSlicer
+DEPENDS
+  VTK::CommonCore
+  VTK::FiltersCore
+  VTK::FiltersSources
+  VTK::ImagingCore
+TEST_DEPENDS
+  VTK::TestingCore
+  VTK::ImagingSources
+DESCRIPTION
+  "A Spline Driven Reslice Algorithm as described in the VTK Journal Article at http://www.vtkjournal.org/browse/publication/838 ."

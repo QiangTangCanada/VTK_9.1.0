@@ -1,0 +1,16 @@
+NAME
+  VTK::MomentInvariants
+LIBRARY_NAME
+  MomentInvariants
+GROUPS
+  StandAlone
+DEPENDS
+  VTK::FiltersCore
+  VTK::ImagingCore
+  VTK::eigen
+PRIVATE_DEPENDS
+  VTK::kissfft
+OPTIONAL_DEPENDS
+  VTK::AcceleratorsVTKmFilters
+TEST_DEPENDS
+  VTK::IOXML

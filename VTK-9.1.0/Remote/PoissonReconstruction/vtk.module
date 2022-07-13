@@ -1,0 +1,12 @@
+NAME
+  VTK::PoissonReconstruction
+LIBRARY_NAME
+  PoissonReconstruction
+DEPENDS
+  VTK::CommonCore
+  VTK::CommonDataModel
+  VTK::CommonExecutionModel
+  VTK::IOXML
+DESCRIPTION
+ "This module contains a class to perform Poisson Surface reconstruction.
+(This code was, with permission, adapted directly from the original implementation by Kazhdan, Bolitho, and Hugues.)"

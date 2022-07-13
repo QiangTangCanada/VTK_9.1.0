@@ -1,0 +1,11 @@
+NAME
+  VTK::Powercrust
+LIBRARY_NAME
+  Powercrust
+DEPENDS
+  VTK::CommonCore
+  VTK::CommonExecutionModel
+  VTK::FiltersPoints
+DESCRIPTION
+ "This module contains a class to reconstruct surfaces from unorganized point data.
+The original algorithm is the Power Crust, for full details and for the original code, see: http://www.cs.utexas.edu/users/amenta/powercrust/welcome.html)"
